@@ -29,6 +29,10 @@ tests:
       - test
       - src
     main: Test.hs
+    dependencies:
+      - tasty
+      - tasty-discover
+      - tasty-hspec
 
 default-extensions:
   ApplicativeDo
