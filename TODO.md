@@ -17,18 +17,37 @@
 
 ## Tasks ##
 
-  - [x] ~~set up github~~
-  - [ ] 
-  - [ ] Set up tests
-      - [ ] Set up tasty
-      - [ ] Set up tasty-discover
-  - [ ] Set up travisCI
-  
-  - [?] Set up docker
-  - [?] Set up vagrant
-  - [?] Set up AWS
-  - [ ] Set up Lens,Tensorflow, and ProtoBuf libraries
-  - [ ] Write project proposal 
-  - [ ] Set up diagrams and diagrams-haddock 
-  - [ ] Set up shake for build deps? 
-  - [ ] Set up folder for producing paper and stuff. 
+  - [ ] Setup dev env
+      - [x] ~~set up github~~
+      - [x] ~~Set up tests~~
+          - DONE : [2018-02-20 Tue 9:21] 
+          - [x] ~~Set up tasty~~
+          - [x] ~~Set up tasty-discover~~
+      - [x] ~~Set up travisCI~~
+          - DONE : [2018-02-20 Tue 9:23] 
+      - [x] ~~Set up Lens~~
+          - DONE : [2018-02-26 Mon 14:12] 
+      - [x] ~~Set up ProtoBuf~~
+          - DONE : [2018-02-26 Mon 14:13]
+      - [ ] Set up Tensorflow
+          - [ ] Run test example 
+      - [ ] Set up plot-ho-matic 
+          - [ ] run basic demo example
+      - [?] Set up docker
+      - [?] Set up vagrant
+      - [?] Set up AWS
+      - [ ] Write project proposal 
+      - [ ] Set up diagrams and diagrams-haddock 
+      - [ ] Set up shake for build deps
+      - [ ] Set up folder for producing paper and stuff. 
+          - [ ] set up shake for paper production
+  - [ ] Readings
+      - [ ] GraphNN 
+      - [ ] Refresh on GHC.Generics 
+      - [ ] Refresh on template haskell
+  - [ ] Development
+      - [ ] Figure out broad structure for different test problems, compositional
+            design, and tensorflow embeddings of elements. 
+  - [ ] Writing 
+      - [ ] 1 Para project proposal 
+      - [ ] Paper
