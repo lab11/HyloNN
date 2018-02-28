@@ -27,16 +27,20 @@
           - DONE : [2018-02-20 Tue 9:23] 
       - [x] ~~Set up Lens~~
           - DONE : [2018-02-26 Mon 14:12] 
-      - [x] ~~Set up ProtoBuf~~
+      - [x] ~~Set up ProtoBuf~~ lw2
           - DONE : [2018-02-26 Mon 14:13]
+      - [*] ~~Set up plot-ho-matic~~
+          - DEPS BROKEN : [2018-02-26 Mon 17:16]
       - [ ] Set up Tensorflow
           - [ ] Run test example 
-      - [ ] Set up plot-ho-matic 
-          - [ ] run basic demo example
+          - [ ] ensure GPU processing
+      - [ ] ensure that you have all neccesary deps outlined in readme
+          - [ ] full instructions for VM 18.04 (?) 
+          - [ ] possible instructions for macOS?
       - [?] Set up docker
       - [?] Set up vagrant
       - [?] Set up AWS
-      - [ ] Write project proposal 
+      - [?] Set up google compute
       - [ ] Set up diagrams and diagrams-haddock 
       - [ ] Set up shake for build deps
       - [ ] Set up folder for producing paper and stuff. 
@@ -45,9 +49,13 @@
       - [ ] GraphNN 
       - [ ] Refresh on GHC.Generics 
       - [ ] Refresh on template haskell
+      - [ ] Bounded iteration
+      - [ ] batch normalization 
+      - [ ] sparsity of internal representations.
+  - [ ] Project proposal
+  - [ ] Homework problem in fork of this library, merge back any issues
+      - [ ] Get shake downloading the 
   - [ ] Development
       - [ ] Figure out broad structure for different test problems, compositional
             design, and tensorflow embeddings of elements. 
   - [ ] Writing 
-      - [ ] 1 Para project proposal 
-      - [ ] Paper

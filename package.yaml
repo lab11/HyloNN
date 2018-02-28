@@ -12,9 +12,17 @@ extra-source-files:
 - README.md
 
 dependencies:
-  - base       >= 4.7   && < 5
-  - lens       >= 4.15  && < 5
-  - proto-lens >= 0.2.2 && < 1
+  - base              >= 4.7   && < 5
+  - lens              >= 4.15  && < 5
+  - proto-lens        >= 0.2   && < 1
+  - tensorflow
+  - tensorflow-ops
+  - tensorflow-core-ops
+  - tensorflow-logging
+  # For the build process of subpackages. 
+  - c2hs
+  - alex
+  - happy 
 
 executables:
   hylonn:

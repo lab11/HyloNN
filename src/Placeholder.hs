@@ -1,4 +1,3 @@
-
 {-|
 Module      : W
 Description : Short description
@@ -14,3 +13,8 @@ commentary with @some markup@.
 -}
 
 module Placeholder where
+
+
+import TensorFlow.Core
+import TensorFlow.Logging
+import TensorFlow.GenOps.Core

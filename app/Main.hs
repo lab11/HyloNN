@@ -1,5 +1,7 @@
+
 module Main where
 
+import Placeholder 
+
 main :: IO ()
-main = do
-  putStrLn "hello world"
+main = print @String "oy"
