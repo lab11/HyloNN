@@ -8,10 +8,12 @@
   - install snappy 
     - `sudo apt install libsnappy-dev`
   - install tensorflow as per https://www.tensorflow.org/install/install_c
-    - `curl -L "https://storage.googleapis.com/tensorflow/libtensorflow/libtensorflow-gpu-linux-x86_64-1.5.0.tar.gz" | sudo tar -C /usr/local/ -xz`
+    - `curl -L "https://storage.googleapis.com/tensorflow/libtensorflow/libtensorflow-gpu-linux-x86_64-1.3.0.tar.gz" | sudo tar -C /usr/local/ -xz`
     - `sudo ldconfig`
     - make sure you create the test app, and install cudnn if you need to for gpu
-      support. 
+      support.
+  - libraries zlib, cudnn, 
+  - stack build c2hs alex and happy
 
   <!-- - install tensorflow as per https://www.tensorflow.org/install/
     - `sudo apt install nvidia-cuda-toolkit` 

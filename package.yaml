@@ -19,10 +19,6 @@ dependencies:
   - tensorflow-ops
   - tensorflow-core-ops
   - tensorflow-logging
-  # For the build process of subpackages. 
-  - c2hs
-  - alex
-  - happy 
 
 executables:
   hylonn:
