@@ -15,7 +15,7 @@
 # resolver:
 #  name: custom-snapshot
 #  location: "./custom-snapshot.yaml"
-resolver: lts-8.13
+resolver: lts-10.8
 
 # User packages to be built.
 # Various formats can be used as shown in the example below.
@@ -56,14 +56,14 @@ packages:
 # (e., acme-missiles-0.3)
 extra-deps:
   #- base-4.9.1.0
-  - git: https://github.com/tensorflow/haskell.git
-    commit: f2cafa7071b55b72aebf27b1f50c6f58a6c33b58
-  - proto-lens-0.2.2.0
-  - proto-lens-descriptors-0.2.2.0
-  - proto-lens-protoc-0.2.2.3
-  - proto-lens-protobuf-types-0.2.2.0
-  - snappy-0.2.0.2
-  - snappy-framing-0.1.1
+  #- git: https://github.com/tensorflow/haskell.git
+  #  commit: f2cafa7071b55b72aebf27b1f50c6f58a6c33b58
+  #- proto-lens-0.2.2.0
+  #- proto-lens-descriptors-0.2.2.0
+  #- proto-lens-protoc-0.2.2.3
+  #- proto-lens-protobuf-types-0.2.2.0
+  #- snappy-0.2.0.2
+  #- snappy-framing-0.1.1
   #- tensorflow-0.1.0.2
   #- tensorflow-core-ops-0.1.0.0
   #- tensorflow-ops-0.1.0.0

@@ -14,11 +14,11 @@ extra-source-files:
 dependencies:
   - base              >= 4.7   && < 5
   - lens              >= 4.15  && < 5
-  - proto-lens        >= 0.2   && < 1
-  - tensorflow
-  - tensorflow-ops
-  - tensorflow-core-ops
-  - tensorflow-logging
+  # - proto-lens        >= 0.2   && < 1
+  # - tensorflow
+  # - tensorflow-ops
+  # - tensorflow-core-ops
+  # - tensorflow-logging
 
 executables:
   hylonn:
