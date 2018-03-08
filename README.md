@@ -14,6 +14,9 @@
       support.
   - libraries zlib, cudnn, 
   - stack build c2hs alex and happy
+  - install docker 
+  - install https://github.com/NVIDIA/nvidia-docker if you want GPU support
+  
 
   <!-- - install tensorflow as per https://www.tensorflow.org/install/
     - `sudo apt install nvidia-cuda-toolkit` 

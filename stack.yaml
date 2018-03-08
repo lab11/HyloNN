@@ -37,27 +37,27 @@ resolver: lts-8.13
 # will not be run. This is useful for tweaking upstream packages.
 packages:
   - .
-  - location:
-      git: https://github.com/tensorflow/haskell.git
-      commit: f2cafa7071b55b72aebf27b1f50c6f58a6c33b58
-    subdirs:
-    - tensorflow
-    - tensorflow-core-ops
-    - tensorflow-logging
-    - tensorflow-opgen
-    - tensorflow-ops
-    - tensorflow-proto
-    - tensorflow-mnist
-    - tensorflow-mnist-input-data
-    - tensorflow-records
-    - tensorflow-records-conduit
-    - tensorflow-test
-    extra-dep: true
+# - location:
+#    subdirs:
+#    - tensorflow
+#    - tensorflow-core-ops
+#    - tensorflow-logging
+#    - tensorflow-opgen
+#    - tensorflow-ops
+#    - tensorflow-proto
+#    - tensorflow-mnist
+#    - tensorflow-mnist-input-data
+#    - tensorflow-records
+#    - tensorflow-records-conduit
+#    - tensorflow-test
+#    extra-dep: true
     
 #Dependency packages to be pulled from upstream that are not in the resolver
 # (e., acme-missiles-0.3)
 extra-deps:
   #- base-4.9.1.0
+  - git: https://github.com/tensorflow/haskell.git
+    commit: f2cafa7071b55b72aebf27b1f50c6f58a6c33b58
   - proto-lens-0.2.2.0
   - proto-lens-descriptors-0.2.2.0
   - proto-lens-protoc-0.2.2.3

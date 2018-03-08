@@ -36,7 +36,6 @@
           - [ ] ensure GPU processing
       - [ ] ensure that you have all neccesary deps outlined in readme
           - [ ] full instructions for VM 18.04 (?) 
-          - [ ] possible instructions for macOS?
       - [?] Set up docker
       - [?] Set up vagrant
       - [?] Set up AWS
