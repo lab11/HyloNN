@@ -12,9 +12,7 @@ Here is a longer description of this module, containing some
 commentary with @some markup@.
 -}
 
-module Placeholder where
-
-
-import TensorFlow.Core
-import TensorFlow.Logging
-import TensorFlow.GenOps.Core
+module Placeholder where 
+-- import TensorFlow.Core
+-- import TensorFlow.Logging
+-- import TensorFlow.GenOps.Core

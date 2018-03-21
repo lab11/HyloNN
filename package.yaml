@@ -24,6 +24,23 @@ executables:
   hylonn:
     source-dirs:      app
     main:             Main.hs
+    dependencies:
+      - hylonn
+
+  hylonn-diagrams:
+    source-dirs:      dia
+    main:             Build.hs
+    dependencies:
+      - shake
+      - diagrams-core >= 1.4 && < 1.5
+      - diagrams-lib >= 1.4 && < 1.5
+      - diagrams-contrib >= 1.4 && < 1.5
+      - diagrams-svg >= 1.4 && < 1.5
+      - diagrams-pgf >= 1.4 && < 1.5 
+      - colour >= 2.3 && < 2.4
+      - SVGFonts >= 1.6 && < 1.7
+      - data-default-class >= 0.1 && < 0.2
+      - newtype >= 0.2 && < 0.3
 
 library:
   source-dirs: src    
@@ -99,5 +116,4 @@ ghc-options:
   - -Wsemigroup
   - -fno-warn-orphans
   - -Wwarn=unused-imports
-  - -fprint-potential-instances
-  - -fprint-typechecker-elaboration
+  - -Wwarn=unused-top-binds
