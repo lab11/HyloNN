@@ -36,7 +36,8 @@
           - [ ] ensure GPU processing
       - [ ] ensure that you have all neccesary deps outlined in readme
           - [ ] full instructions for VM 18.04 (?) 
-      - [?] Set up docker
+      - [x] ~~Set up docker~~
+          - DONE : [2018-03-22 Thu 14:57] 
       - [?] Set up vagrant
       - [?] Set up AWS
       - [?] Set up google compute
